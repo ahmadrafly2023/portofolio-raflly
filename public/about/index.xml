@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Abouts on Ahmad Rafly Putra H</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on Ahmad Rafly Putra H</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>&lt;h2 id=&#34;tentang-saya&#34;&gt;Tentang Saya&lt;/h2&gt;
+&lt;p&gt;Saya &lt;strong&gt;Ahmad Rafly Putra Hasrun&lt;/strong&gt;, mahasiswa &lt;strong&gt;S1 Sistem Informasi – Universitas Hasanuddin&lt;/strong&gt; (IPK 3.74) yang fokus pada &lt;strong&gt;analisis sistem&lt;/strong&gt;, &lt;strong&gt;UI/UX&lt;/strong&gt;, dan &lt;strong&gt;pengembangan aplikasi mobile&lt;/strong&gt; dengan integrasi &lt;strong&gt;IoT (ESP32)&lt;/strong&gt;. Saya menikmati proses menggali kebutuhan, merancang solusi, dan memvalidasi lewat pengujian pengguna—mencari dampak nyata dari teknologi di lapangan.&lt;/p&gt;
+&lt;h2 id=&#34;apa-yang-saya-kerjakan&#34;&gt;Apa yang Saya Kerjakan&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;System Analysis &amp;amp; UI/UX&lt;/strong&gt; — riset kebutuhan, wireframe, prototipe interaktif, dan &lt;em&gt;usability testing&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Full-Stack Mobile + IoT&lt;/strong&gt; — arsitektur aplikasi, integrasi sensor (suhu/kelembapan/kualitas udara) untuk pemantauan &lt;strong&gt;real-time&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publikasi &amp;amp; Dokumentasi&lt;/strong&gt; — videografi/fotografi untuk edukasi dan dokumentasi event.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;sorotan-proyek&#34;&gt;Sorotan Proyek&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Si-Ternak (2025)&lt;/strong&gt; — &lt;em&gt;full-stack mobile&lt;/em&gt; terintegrasi &lt;strong&gt;ESP32&lt;/strong&gt; untuk pemantauan kesehatan ternak; mencakup jadwal vaksinasi, obat, inseminasi, &amp;amp; deteksi birahi. Melakukan &lt;em&gt;user testing&lt;/em&gt; dengan petugas desa.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AgroVerify (2024)&lt;/strong&gt; — perancangan UI/UX untuk verifikasi pertanian dan iterasi berbasis &lt;em&gt;usability testing&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Eksplorasi Nusantara (2023)&lt;/strong&gt; — analisis kebutuhan &amp;amp; prototipe interaktif aplikasi eksplorasi wisata.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pencapaian&#34;&gt;Pencapaian&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pendanaan PPK Ormawa 2025&lt;/strong&gt; — Program &lt;strong&gt;SATOA&lt;/strong&gt; (&lt;em&gt;Smart Agriculture Technology for Optimalized Animal Farming&lt;/em&gt;) untuk peningkatan kesejahteraan peternak.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Top 5 Finalist&lt;/strong&gt; — &lt;strong&gt;UX Design Competition IT Today 2024&lt;/strong&gt;, IPB.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;President Pandu Digital SMAN 6 Makassar (2021–2022)&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;keterampilan&#34;&gt;Keterampilan&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;UI/UX Design:&lt;/strong&gt; wireframe, prototipe, &lt;em&gt;user testing&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Full-Stack Development:&lt;/strong&gt; mobile app, integrasi &lt;strong&gt;IoT/ESP32&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Communication &amp;amp; Leadership:&lt;/strong&gt; kolaborasi lintas tim &amp;amp; organisasi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Creative Problem Solving &amp;amp; Adaptability&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;organisasi--kegiatan&#34;&gt;Organisasi &amp;amp; Kegiatan&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Himpunan Matematika FMIPA Unhas — &lt;strong&gt;Interest &amp;amp; Talent Division&lt;/strong&gt; (2025–sekarang)&lt;/li&gt;
+&lt;li&gt;UKM Start-Up Unhas — &lt;strong&gt;Human Resources Division&lt;/strong&gt; (2025–sekarang)&lt;/li&gt;
+&lt;li&gt;SIGMA BEM FMIPA Unhas — &lt;strong&gt;Events Division&lt;/strong&gt; (2025)&lt;/li&gt;
+&lt;li&gt;Beberapa kepanitiaan publikasi &amp;amp; dokumentasi tingkat fakultas/universitas (2023–2024)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pendidikan&#34;&gt;Pendidikan&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Universitas Hasanuddin&lt;/strong&gt; — S1 Sistem Informasi (2023–sekarang, IPK 3.74)&lt;br&gt;
+SMAN 6 Makassar (2020–2023) · SMPN 35 Makassar (2017–2019)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

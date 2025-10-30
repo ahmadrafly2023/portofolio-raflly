@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>API Testing | Ahmad Rafly Putra H</title>
+<meta name="keywords" content="api, testing, postman, soapui, software testing">
+<meta name="description" content="Rangkuman lengkap tentang konsep, manfaat, komponen dasar, langkah instalasi, serta contoh penggunaan API Testing menggunakan Postman dan SOAPUI.">
+<meta name="author" content="Ahmad Rafly">
+<link rel="canonical" href="http://localhost:1313/posts/apitesting/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.08f7d74f0ada0f975d29ae436285b61ed7a719d05f350cb888d00341642995a2.css" integrity="sha256-CPfXTwraD5ddKa5DYoW2HtenGdBfNQy4iNADQWQplaI=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/apitesting/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Ahmad Rafly Putra H (Alt + H)">Ahmad Rafly Putra H</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      API Testing
+    </h1>
+    <div class="post-description">
+      Rangkuman lengkap tentang konsep, manfaat, komponen dasar, langkah instalasi, serta contoh penggunaan API Testing menggunakan Postman dan SOAPUI.
+    </div>
+    <div class="post-meta"><span title='2025-10-29 00:00:00 +0000 UTC'>October 29, 2025</span>&nbsp;·&nbsp;7 min&nbsp;·&nbsp;1394 words&nbsp;·&nbsp;Ahmad Rafly
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="http://localhost:1313/images/posts/apitesting.png" alt="API Testing">
+        
+</figure>
+  <div class="post-content"><h2 id="pendahuluan">Pendahuluan<a hidden class="anchor" aria-hidden="true" href="#pendahuluan">#</a></h2>
+<p>Dalam ekosistem digital saat ini, aplikasi seringkali bergantung pada <em>Antarmuka Pemrograman Aplikasi (API)</em> untuk berkomunikasi satu sama lain.
+Untuk memastikan koneksi ini berfungsi dengan andal, <em>Pengujian API</em> menjadi proses krusial dalam pengembangan perangkat lunak.</p>
+<p>Artikel ini merangkum presentasi oleh <em>Kelompok 6 Sistem Informasi 2023</em>, yang membahas apa itu pengujian API, mengapa penting, alat yang umum digunakan (Postman &amp; SOAPUI), dan bagaimana permintaan dan respons disusun dalam lingkungan API.</p>
+<hr>
+<h2 id="-apa-itu-pengujian-api">🧠 Apa Itu Pengujian API?<a hidden class="anchor" aria-hidden="true" href="#-apa-itu-pengujian-api">#</a></h2>
+<p><em>Pengujian API</em> adalah proses validasi Antarmuka Pemrograman Aplikasi (API) untuk memastikannya berfungsi sesuai spesifikasi.
+Proses ini memverifikasi apakah API:</p>
+<ul>
+<li>Menangani permintaan dan respons dengan benar,</li>
+<li>Menghasilkan keluaran yang akurat untuk masukan yang diberikan, dan</li>
+<li>Menjaga konsistensi dalam berbagai skenario penggunaan.</li>
+</ul>
+<p>Sederhananya, pengujian API memastikan bahwa sistem dapat <em>berkomunikasi secara efektif dan aman</em>.</p>
+<hr>
+<h2 id="-mengapa-pengujian-api-penting">🎯 Mengapa Pengujian API Penting<a hidden class="anchor" aria-hidden="true" href="#-mengapa-pengujian-api-penting">#</a></h2>
+<p>API adalah jembatan antara berbagai sistem perangkat lunak. Mengujinya memastikan komunikasi yang lancar, keandalan yang tinggi, dan akurasi data.</p>
+<p>Berikut adalah beberapa manfaat utama Pengujian API:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Manfaat</th>
+          <th>Deskripsi</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><em>Memastikan Akurasi Fungsional</em></td>
+          <td>Memastikan API berfungsi sesuai desain dan menghasilkan keluaran yang benar.</td>
+      </tr>
+      <tr>
+          <td><em>Meningkatkan Keandalan</em></td>
+          <td>Mendeteksi bug lebih awal, sebelum integrasi.</td>
+      </tr>
+      <tr>
+          <td><em>Meningkatkan Keamanan</em></td>
+          <td>Mencegah akses tidak sah dan potensi kerentanan.</td>
+      </tr>
+      <tr>
+          <td><em>Mengukur Performa</em></td>
+          <td>Menguji stabilitas API di bawah beban berat.</td>
+      </tr>
+      <tr>
+          <td><em>Mempercepat Pengembangan</em></td>
+          <td>Otomatisasi mengurangi waktu regresi.</td>
+      </tr>
+      <tr>
+          <td><em>Mendukung Integrasi Sistem</em></td>
+          <td>Memastikan beberapa layanan dapat berinteraksi dengan lancar.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="-alat-populer-untuk-pengujian-api">🧰 Alat Populer untuk Pengujian API<a hidden class="anchor" aria-hidden="true" href="#-alat-populer-untuk-pengujian-api">#</a></h2>
+<p>Pengujian API modern memanfaatkan alat khusus untuk mengotomatiskan dan mengelola permintaan.
+Dua yang paling umum digunakan adalah <em>Postman</em> dan <em>SOAPUI</em>.</p>
+<hr>
+<h3 id="-1-postman">🧪 1. Postman<a hidden class="anchor" aria-hidden="true" href="#-1-postman">#</a></h3>
+<p><em>Postman</em> adalah alat yang banyak digunakan dan ramah pengguna yang dirancang untuk menguji API — baik REST maupun GraphQL.
+Alat ini memungkinkan pengembang dan penguji untuk membuat, mengirim, dan memantau permintaan API dengan mudah.</p>
+<h4 id="-fitur-utama">🔑 Fitur Utama:<a hidden class="anchor" aria-hidden="true" href="#-fitur-utama">#</a></h4>
+<ul>
+<li>Antarmuka yang intuitif dan ramah pengguna</li>
+<li>Mendukung berbagai metode HTTP (GET, POST, PUT, DELETE, PATCH)</li>
+<li>Dukungan autentikasi bawaan</li>
+<li>Manajemen lingkungan dan variabel</li>
+<li>Koleksi permintaan dan dokumentasi</li>
+<li>Kemampuan otomatisasi dan pemantauan pengujian</li>
+<li>Visualisasikan respons API dalam format JSON atau XML</li>
+</ul>
+<!-- raw HTML omitted -->
+<hr>
+<h3 id="-2-soapui">⚙ 2. SOAPUI<a hidden class="anchor" aria-hidden="true" href="#-2-soapui">#</a></h3>
+<p><em>SOAPUI</em> adalah alat pengujian API yang lebih canggih, cocok untuk skenario tingkat perusahaan, dan mendukung API <em>SOAP</em> (berbasis XML) dan <em>REST</em>.</p>
+<h4 id="-fitur-utama-1">🌟 Fitur Utama:<a hidden class="anchor" aria-hidden="true" href="#-fitur-utama-1">#</a></h4>
+<ul>
+<li>Mendukung *Pengujian Fungsional, **Keamanan, dan *<em>Beban</em></li>
+<li>Pengujian berbasis data (integrasi Excel atau basis data)</li>
+<li>Pembuatan skenario pengujian lanjutan untuk proyek skala besar</li>
+<li>Pembuatan layanan tiruan untuk mensimulasikan respons API</li>
+<li>Cocok untuk sistem perusahaan yang kompleks</li>
+</ul>
+<h4 id="-keunggulan">💡 Keunggulan:<a hidden class="anchor" aria-hidden="true" href="#-keunggulan">#</a></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Fitur</th>
+          <th>Deskripsi</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><em>Kuat untuk API berbasis SOAP</em></td>
+          <td>Terbaik untuk menguji sistem lama atau perusahaan menggunakan XML.</td>
+      </tr>
+      <tr>
+          <td><em>Pengujian Keamanan Lanjutan</em></td>
+          <td>Mengidentifikasi kerentanan dan kebocoran data.</td>
+      </tr>
+      <tr>
+          <td><em>Dukungan Pengujian Performa</em></td>
+          <td>Mengukur kecepatan dan keandalan API di bawah tekanan.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="-anatomi-permintaan-dan-respons-api">🔍 Anatomi Permintaan dan Respons API<a hidden class="anchor" aria-hidden="true" href="#-anatomi-permintaan-dan-respons-api">#</a></h2>
+<p>Memahami cara kerja permintaan dan respons sangat penting dalam pengujian API.</p>
+<h3 id="-anatomi-permintaan-api">✉ Anatomi Permintaan API<a hidden class="anchor" aria-hidden="true" href="#-anatomi-permintaan-api">#</a></h3>
+<p><em>Permintaan</em> adalah pesan yang dikirim oleh klien ke server untuk mengakses atau mengubah data.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Komponen</th>
+          <th>Deskripsi</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><em>Metode HTTP (Kata Kerja)</em></td>
+          <td>Menentukan tindakan yang akan dilakukan (misalnya, GET, POST, PUT, DELETE).</td>
+      </tr>
+      <tr>
+          <td><em>URL (Titik Akhir)</em></td>
+          <td>Alamat sumber daya atau rute API yang sedang diakses.</td>
+      </tr>
+      <tr>
+          <td><em>Header</em></td>
+          <td>Berisi metadata tambahan (misalnya, tipe konten, otorisasi).</td>
+      </tr>
+      <tr>
+          <td><em>Isi</em></td>
+          <td>Menyimpan data yang dikirim ke server (biasanya dalam format JSON atau XML).</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>Contoh Permintaan (POST):</em>
+http
+POST /api/users
+Host: api.example.com
+Tipe Konten: application/json</p>
+<p>{
+&ldquo;name&rdquo;: &ldquo;rafly&rdquo;,
+&ldquo;email&rdquo;: &ldquo;<a href="mailto:rafly@example.com">rafly@example.com</a>&rdquo;
+}</p>
+<h2 id="anatomi-respons-api">Anatomi Respons API<a hidden class="anchor" aria-hidden="true" href="#anatomi-respons-api">#</a></h2>
+<p>Respons adalah apa yang dikirim kembali oleh server setelah memproses permintaan klien.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Komponen</th>
+          <th>Deskripsi</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><em>Kode Status</em></td>
+          <td>Menunjukkan hasil (misalnya, 200 OK, 404 Tidak Ditemukan, 500 Kesalahan Server Internal).</td>
+      </tr>
+      <tr>
+          <td><em>Header</em></td>
+          <td>Sertakan metadata respons seperti tipe konten dan info cache.</td>
+      </tr>
+      <tr>
+          <td><em>Isi</em></td>
+          <td>Berisi data yang dikembalikan oleh API (seringkali dalam format JSON).</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="path-assetsapi_testingpng">layout: post
+title: &ldquo;API Testing: Ensuring Seamless Communication Between Systems&rdquo;
+date: 2025-10-06 09:00:00 +0800
+categories: [Articles, SoftwareTesting]
+tags: [Software Testing, API Testing, Postman, SOAPUI, Automation, REST, QA]
+image:
+path: &ldquo;/assets/api_testing.png&rdquo;</h2>
+<h2 id="introduction">Introduction<a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h2>
+<p>In today’s digital ecosystem, applications often rely on <em>Application Programming Interfaces (APIs)</em> to communicate with one another.<br>
+To ensure these connections work reliably, <em>API Testing</em> becomes a crucial process in software development.</p>
+<p>This article summarizes the presentation by <em>Kelompok 6 Sistem Informasi 2023</em>, discussing what API testing is, why it matters, the tools commonly used (Postman &amp; SOAPUI), and how requests and responses are structured within an API environment.</p>
+<hr>
+<h2 id="-what-is-api-testing">🧠 What Is API Testing?<a hidden class="anchor" aria-hidden="true" href="#-what-is-api-testing">#</a></h2>
+<p><em>API Testing</em> is the process of validating an Application Programming Interface (API) to ensure it functions according to specifications.<br>
+It verifies whether the API:</p>
+<ul>
+<li>Handles requests and responses properly,</li>
+<li>Produces accurate outputs for given inputs, and</li>
+<li>Maintains consistency under different usage scenarios.</li>
+</ul>
+<p>Simply put, API testing ensures that systems can <em>communicate effectively and securely</em>.</p>
+<hr>
+<h2 id="-why-api-testing-is-important">🎯 Why API Testing Is Important<a hidden class="anchor" aria-hidden="true" href="#-why-api-testing-is-important">#</a></h2>
+<p>APIs are the bridge between different software systems. Testing them ensures smooth communication, high reliability, and data accuracy.<br>
+Here are several key benefits of API Testing:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Benefit</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><em>Ensures Functional Accuracy</em></td>
+          <td>Confirms the API behaves according to design and produces correct outputs.</td>
+      </tr>
+      <tr>
+          <td><em>Increases Reliability</em></td>
+          <td>Detects bugs early, before integration.</td>
+      </tr>
+      <tr>
+          <td><em>Improves Security</em></td>
+          <td>Prevents unauthorized access and potential vulnerabilities.</td>
+      </tr>
+      <tr>
+          <td><em>Measures Performance</em></td>
+          <td>Tests API stability under heavy loads.</td>
+      </tr>
+      <tr>
+          <td><em>Accelerates Development</em></td>
+          <td>Automation reduces regression time.</td>
+      </tr>
+      <tr>
+          <td><em>Supports System Integration</em></td>
+          <td>Ensures multiple services can interact seamlessly.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="-popular-tools-for-api-testing">🧰 Popular Tools for API Testing<a hidden class="anchor" aria-hidden="true" href="#-popular-tools-for-api-testing">#</a></h2>
+<p>Modern API testing leverages specialized tools to automate and manage requests.<br>
+The two most commonly used are <em>Postman</em> and <em>SOAPUI</em>.</p>
+<hr>
+<h3 id="-1-postman-1">🧪 1. Postman<a hidden class="anchor" aria-hidden="true" href="#-1-postman-1">#</a></h3>
+<p><em>Postman</em> is a widely used, user-friendly tool designed for testing APIs — both REST and GraphQL.<br>
+It allows developers and testers to create, send, and monitor API requests easily.</p>
+<h4 id="-key-features">🔑 Key Features:<a hidden class="anchor" aria-hidden="true" href="#-key-features">#</a></h4>
+<ul>
+<li>Intuitive, user-friendly interface</li>
+<li>Supports multiple HTTP methods (GET, POST, PUT, DELETE, PATCH)</li>
+<li>Built-in authentication support</li>
+<li>Environment and variable management</li>
+<li>Request collections and documentation</li>
+<li>Test automation and monitoring capabilities</li>
+<li>Visualize API responses in JSON or XML</li>
+</ul>
+<!-- raw HTML omitted -->
+<hr>
+<h3 id="-2-soapui-1">⚙ 2. SOAPUI<a hidden class="anchor" aria-hidden="true" href="#-2-soapui-1">#</a></h3>
+<p><em>SOAPUI</em> is a more advanced API testing tool suitable for enterprise-level scenarios and supports both <em>SOAP</em> (XML-based) and <em>REST</em> APIs.</p>
+<h4 id="-key-features-1">🌟 Key Features:<a hidden class="anchor" aria-hidden="true" href="#-key-features-1">#</a></h4>
+<ul>
+<li>Supports *Functional, **Security, and *<em>Load Testing</em></li>
+<li>Data-driven testing (Excel or database integration)</li>
+<li>Advanced test scenario creation for large-scale projects</li>
+<li>Mock service creation to simulate API responses</li>
+<li>Suitable for complex enterprise systems</li>
+</ul>
+<h4 id="-advantages">💡 Advantages:<a hidden class="anchor" aria-hidden="true" href="#-advantages">#</a></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Feature</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><em>Strong for SOAP-based APIs</em></td>
+          <td>Best for testing legacy or enterprise systems using XML.</td>
+      </tr>
+      <tr>
+          <td><em>Advanced Security Testing</em></td>
+          <td>Identifies vulnerabilities and data leaks.</td>
+      </tr>
+      <tr>
+          <td><em>Performance Testing Support</em></td>
+          <td>Measures API speed and reliability under stress.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="-anatomy-of-api-request-and-response">🔍 Anatomy of API Request and Response<a hidden class="anchor" aria-hidden="true" href="#-anatomy-of-api-request-and-response">#</a></h2>
+<p>Understanding how requests and responses work is essential in API testing.</p>
+<h3 id="-api-request-anatomy">✉ API Request Anatomy<a hidden class="anchor" aria-hidden="true" href="#-api-request-anatomy">#</a></h3>
+<p>A <em>Request</em> is a message sent by the client to the server to access or modify data.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Component</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><em>HTTP Method (Verb)</em></td>
+          <td>Defines the action to perform (e.g., GET, POST, PUT, DELETE).</td>
+      </tr>
+      <tr>
+          <td><em>URL (Endpoint)</em></td>
+          <td>The address of the resource or API route being accessed.</td>
+      </tr>
+      <tr>
+          <td><em>Headers</em></td>
+          <td>Contain additional metadata (e.g., content type, authorization).</td>
+      </tr>
+      <tr>
+          <td><em>Body</em></td>
+          <td>Holds data sent to the server (usually in JSON or XML format).</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>Example Request (POST):</em>
+http
+POST /api/users
+Host: api.example.com
+Content-Type: application/json</p>
+<p>{
+&ldquo;name&rdquo;: &ldquo;rafly&rdquo;,
+&ldquo;email&rdquo;: &ldquo;<a href="mailto:rafly@example.com">rafly@example.com</a>&rdquo;
+}</p>
+<h2 id="api-response-anatomy">API Response Anatomy<a hidden class="anchor" aria-hidden="true" href="#api-response-anatomy">#</a></h2>
+<p>A Response is what the server sends back after processing a client request.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Component</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><em>Status Code</em></td>
+          <td>Indicates result (e.g., 200 OK, 404 Not Found, 500 Internal Server Error).</td>
+      </tr>
+      <tr>
+          <td><em>Headers</em></td>
+          <td>Include response metadata such as content type and cache info.</td>
+      </tr>
+      <tr>
+          <td><em>Body</em></td>
+          <td>Contains the data returned by the API (often in JSON).</td>
+      </tr>
+  </tbody>
+</table>
+<p>Example Response (Success):
+json
+{
+&ldquo;status&rdquo;: &ldquo;success&rdquo;,
+&ldquo;user_id&rdquo;: 101,
+&ldquo;message&rdquo;: &ldquo;User created successfully&rdquo;
+}</p>
+<h2 id="sending-requests-using-postman">Sending Requests Using Postman<a hidden class="anchor" aria-hidden="true" href="#sending-requests-using-postman">#</a></h2>
+<p>Using Postman, testers can perform both GET and POST operations easily.</p>
+<p>🧾 Example 1: GET Request</p>
+<p>Open Postman and choose GET method.</p>
+<p>Enter URL: <a href="https://jsonplaceholder.typicode.com/users">https://jsonplaceholder.typicode.com/users</a></p>
+<p>Click Send.</p>
+<p>Observe the list of user data returned in the Response Body.</p>
+<p>🧾 Example 2: POST Request</p>
+<ol>
+<li>
+<p>Choose POST method.</p>
+</li>
+<li>
+<p>Enter URL: <a href="https://jsonplaceholder.typicode.com/posts">https://jsonplaceholder.typicode.com/posts</a></p>
+</li>
+<li>
+<p>Go to Body → raw → JSON.</p>
+</li>
+<li>
+<p>Insert:
+json
+{
+&ldquo;title&rdquo;: &ldquo;Belajar API Testing&rdquo;,
+&ldquo;body&rdquo;: &ldquo;Ini contoh POST request&rdquo;,
+&ldquo;userId&rdquo;: 1
+}</p>
+</li>
+<li>
+<p>Click Send.</p>
+</li>
+<li>
+<p>The API should return a confirmation with a generated ID.</p>
+</li>
+</ol>
+<p>Result:
+Postman shows the response code (e.g., 201 Created) along with the new resource data — verifying that the API works as expected.</p>
+<h2 id="live-coding-example">Live Coding Example<a hidden class="anchor" aria-hidden="true" href="#live-coding-example">#</a></h2>
+<p>During the presentation, Kelompok 6 demonstrated API testing using a public API with both GET and POST requests.
+The example showed how to:</p>
+<ul>
+<li>Send requests using Postman</li>
+<li>Validate response codes (200, 404, etc.)</li>
+<li>Interpret returned JSON data</li>
+</ul>
+<p>This hands-on demonstration highlighted the importance of verifying API endpoints efficiently during development.</p>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>API Testing is a vital step in ensuring that systems communicate efficiently, securely, and accurately.
+It verifies data integrity, detects bugs early, and improves user experience through stable integrations.</p>
+<p>By mastering tools such as Postman and SOAPUI, testers can automate, analyze, and validate API functionality effectively — laying the foundation for robust, connected software systems.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/api/">Api</a></li>
+      <li><a href="http://localhost:1313/tags/testing/">Testing</a></li>
+      <li><a href="http://localhost:1313/tags/postman/">Postman</a></li>
+      <li><a href="http://localhost:1313/tags/soapui/">Soapui</a></li>
+      <li><a href="http://localhost:1313/tags/software-testing/">Software Testing</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/selenium/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Selenium WebDriver</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/testscanario/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Test Scenario, Test Case, dan Bug Report</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share API Testing on x"
+            href="https://x.com/intent/tweet/?text=API%20Testing&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fapitesting%2f&amp;hashtags=api%2ctesting%2cpostman%2csoapui%2csoftwaretesting">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share API Testing on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fapitesting%2f&amp;title=API%20Testing&amp;summary=API%20Testing&amp;source=http%3a%2f%2flocalhost%3a1313%2fposts%2fapitesting%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share API Testing on reddit"
+            href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fapitesting%2f&title=API%20Testing">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share API Testing on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fapitesting%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share API Testing on whatsapp"
+            href="https://api.whatsapp.com/send?text=API%20Testing%20-%20http%3a%2f%2flocalhost%3a1313%2fposts%2fapitesting%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share API Testing on telegram"
+            href="https://telegram.me/share/url?text=API%20Testing&amp;url=http%3a%2f%2flocalhost%3a1313%2fposts%2fapitesting%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share API Testing on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=API%20Testing&u=http%3a%2f%2flocalhost%3a1313%2fposts%2fapitesting%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Ahmad Rafly Putra H</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

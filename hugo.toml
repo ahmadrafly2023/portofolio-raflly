@@ -1,0 +1,81 @@
+baseURL = "https://ahmadrafly2023.github.io/" # alamat GitHub Pages kamu
+languageCode = "en-us"
+title = "Ahmad Rafly Putra H"
+theme = "github.com/adityatelange/hugo-PaperMod"
+
+
+[pagination]
+  pagerSize = 10
+
+# ------------------
+# Params PaperMod
+# ------------------
+[params]
+  author = "Ahmad Rafly Putra H"
+  description = "System Analyst | UI/UX Designer | SIG Enthusiast"
+  defaultTheme = "auto" # options: light, dark, auto
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+
+  # Footer Info
+  [params.footer]
+    since = 2025
+    customText = "Made with Hugo & PaperMod"
+
+  # Profile Info (Hero)
+  [params.profileMode]
+    enabled = true
+    title = "Ahmad Rafly Putra Hasrun"
+    subtitle = "System Analyst | UI/UX Design | SIG"
+    imageUrl = "images/avatar.png" # simpan fotomu di folder /static/images/avatar.png
+    imageTitle = "Avatar"
+
+  # Social Media
+  [[params.social]]
+  name = "github"
+  url = "https://github.com/ahmadrafly2023"
+
+  [[params.social]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/Ahmad-Rafly-Putra-Hasrun"
+
+  [[params.social]]
+  name = "instagram"
+  url = "https://instagram.com/aarflyy"
+
+  [[params.social]]
+  name = "email"
+  url = "mailto:ahmd.rfly19@gmail.com"
+
+
+# ------------------
+# Menu Navigasi
+# ------------------
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 2
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 3
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 5

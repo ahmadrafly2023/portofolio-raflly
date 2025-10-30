@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Stratego on Ahmad Rafly Putra H</title>
+    <link>http://localhost:1313/tags/stratego/</link>
+    <description>Recent content in Stratego on Ahmad Rafly Putra H</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/stratego/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Strategi Software Testing</title>
+      <link>http://localhost:1313/projects/softwaretesting/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/softwaretesting/</guid>
+      <description>Ikhtisar komprehensif tentang tujuan, siklus, dan klasifikasi pengujian perangkat lunak—dilengkapi contoh nyata</description>
+    </item>
+  </channel>
+</rss>

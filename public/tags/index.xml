@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Ahmad Rafly Putra H</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Ahmad Rafly Putra H</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automation Testing</title>
+      <link>http://localhost:1313/tags/automation-testing/</link>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/automation-testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/tags/python/</link>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Selenium</title>
+      <link>http://localhost:1313/tags/selenium/</link>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/selenium/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Testing</title>
+      <link>http://localhost:1313/tags/software-testing/</link>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/software-testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webdriver</title>
+      <link>http://localhost:1313/tags/webdriver/</link>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/webdriver/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Api</title>
+      <link>http://localhost:1313/tags/api/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bug Report</title>
+      <link>http://localhost:1313/tags/bug-report/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bug-report/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jest</title>
+      <link>http://localhost:1313/tags/jest/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/jest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Junit</title>
+      <link>http://localhost:1313/tags/junit/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/junit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Postman</title>
+      <link>http://localhost:1313/tags/postman/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/postman/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pytest</title>
+      <link>http://localhost:1313/tags/pytest/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/pytest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>QA</title>
+      <link>http://localhost:1313/tags/qa/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/qa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scenario</title>
+      <link>http://localhost:1313/tags/scenario/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/scenario/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Soapui</title>
+      <link>http://localhost:1313/tags/soapui/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/soapui/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Test Case</title>
+      <link>http://localhost:1313/tags/test-case/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/test-case/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testing</title>
+      <link>http://localhost:1313/tags/testing/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unit Testing</title>
+      <link>http://localhost:1313/tags/unit-testing/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/unit-testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Accessibility</title>
+      <link>http://localhost:1313/tags/accessibility/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/accessibility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Planning</title>
+      <link>http://localhost:1313/tags/planning/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/planning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UI</title>
+      <link>http://localhost:1313/tags/ui/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ui/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Usability</title>
+      <link>http://localhost:1313/tags/usability/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/usability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UX</title>
+      <link>http://localhost:1313/tags/ux/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>http://localhost:1313/tags/software/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Strategi</title>
+      <link>http://localhost:1313/tags/strategi/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/strategi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>http://localhost:1313/tags/automation/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cypress</title>
+      <link>http://localhost:1313/tags/cypress/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cypress/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>End-to-End Testing</title>
+      <link>http://localhost:1313/tags/end-to-end-testing/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/end-to-end-testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>http://localhost:1313/tags/javascript/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Android</title>
+      <link>http://localhost:1313/tags/android/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/android/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Figma</title>
+      <link>http://localhost:1313/tags/figma/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/figma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flutter</title>
+      <link>http://localhost:1313/tags/flutter/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/flutter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Information System</title>
+      <link>http://localhost:1313/tags/information-system/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/information-system/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>http://localhost:1313/tags/java/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laravel</title>
+      <link>http://localhost:1313/tags/laravel/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/laravel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mobile</title>
+      <link>http://localhost:1313/tags/mobile/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mobile/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>http://localhost:1313/tags/web/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/web/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

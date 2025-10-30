@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>STQA on Ahmad Rafly Putra H</title>
+    <link>http://localhost:1313/tags/stqa/</link>
+    <description>Recent content in STQA on Ahmad Rafly Putra H</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Oct 2025 09:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/stqa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Selenium WebDriver: Automating Web Testing with Precision</title>
+      <link>http://localhost:1313/posts/selenium/</link>
+      <pubDate>Tue, 07 Oct 2025 09:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/selenium/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In today’s web-driven era, &lt;em&gt;automated testing&lt;/em&gt; has become a crucial part of software quality assurance.&lt;br&gt;
+One of the most widely used tools in this domain is &lt;em&gt;Selenium WebDriver&lt;/em&gt; — an open-source framework for browser automation.&lt;/p&gt;
+&lt;p&gt;This article summarizes the presentation from &lt;em&gt;Kelompok 7 Sistem Informasi 2023&lt;/em&gt;, exploring what Selenium is, why it’s widely used, how it interacts with browsers, and how to implement a simple test scenario using Python.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

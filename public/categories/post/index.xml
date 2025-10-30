@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Post on Ahmad Rafly Putra H</title>
+    <link>http://localhost:1313/categories/post/</link>
+    <description>Recent content in Post on Ahmad Rafly Putra H</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Selenium WebDriver</title>
+      <link>http://localhost:1313/posts/selenium/</link>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/selenium/</guid>
+      <description>Rangkuman mendalam tentang konsep, fungsi, cara kerja, instalasi, dan penerapan Selenium WebDriver untuk otomatisasi pengujian aplikasi web.</description>
+    </item>
+    <item>
+      <title>API Testing</title>
+      <link>http://localhost:1313/posts/apitesting/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/apitesting/</guid>
+      <description>Rangkuman lengkap tentang konsep, manfaat, komponen dasar, langkah instalasi, serta contoh penggunaan API Testing menggunakan Postman dan SOAPUI.</description>
+    </item>
+    <item>
+      <title>Test Scenario, Test Case, dan Bug Report</title>
+      <link>http://localhost:1313/posts/testscanario/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/testscanario/</guid>
+      <description>Rangkuman komprehensif tentang konsep, struktur, dan implementasi test scenario, test case, serta bug report dalam proses pengujian perangkat lunak.</description>
+    </item>
+    <item>
+      <title>Unit Testing</title>
+      <link>http://localhost:1313/posts/unittesting/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/unittesting/</guid>
+      <description>Rangkuman mendalam tentang konsep, manfaat, pola dasar, dan penerapan Unit Testing menggunakan framework populer seperti Pytest, JUnit, dan Jest.</description>
+    </item>
+    <item>
+      <title>Software Testing Plan</title>
+      <link>http://localhost:1313/posts/testingplan/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/testingplan/</guid>
+      <description>Rangkuman mendalam mengenai konsep, tujuan, komponen, dan struktur pembuatan rencana pengujian perangkat lunak (Testing Plan) berdasarkan standar IEEE 829-1988.</description>
+    </item>
+    <item>
+      <title>UI/UX Testing</title>
+      <link>http://localhost:1313/posts/uxtesitng/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/uxtesitng/</guid>
+      <description>Rangkuman komprehensif tentang konsep, fokus, metode, dan contoh penerapan UI dan UX Testing.</description>
+    </item>
+    <item>
+      <title>Strategi Software Testing</title>
+      <link>http://localhost:1313/posts/softwaretesting/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/softwaretesting/</guid>
+      <description>Ikhtisar komprehensif tentang tujuan, siklus, dan klasifikasi pengujian perangkat lunak — dilengkapi contoh nyata.</description>
+    </item>
+    <item>
+      <title>Cypress</title>
+      <link>http://localhost:1313/posts/cypress/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cypress/</guid>
+      <description>Rangkuman lengkap tentang konsep, fitur, langkah instalasi, serta penerapan Cypress sebagai framework modern untuk pengujian end-to-end aplikasi web.</description>
+    </item>
+  </channel>
+</rss>
