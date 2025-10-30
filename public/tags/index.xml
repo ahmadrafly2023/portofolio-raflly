@@ -2,262 +2,262 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Ahmad Rafly Putra H</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://ahmadrafly2023.github.io/tags/</link>
     <description>Recent content in Tags on Ahmad Rafly Putra H</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ahmadrafly2023.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automation Testing</title>
-      <link>http://localhost:1313/tags/automation-testing/</link>
+      <link>https://ahmadrafly2023.github.io/tags/automation-testing/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/automation-testing/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/automation-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
+      <link>https://ahmadrafly2023.github.io/tags/python/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/python/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Selenium</title>
-      <link>http://localhost:1313/tags/selenium/</link>
+      <link>https://ahmadrafly2023.github.io/tags/selenium/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/selenium/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/selenium/</guid>
       <description></description>
     </item>
     <item>
       <title>Software Testing</title>
-      <link>http://localhost:1313/tags/software-testing/</link>
+      <link>https://ahmadrafly2023.github.io/tags/software-testing/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/software-testing/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/software-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Webdriver</title>
-      <link>http://localhost:1313/tags/webdriver/</link>
+      <link>https://ahmadrafly2023.github.io/tags/webdriver/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/webdriver/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/webdriver/</guid>
       <description></description>
     </item>
     <item>
       <title>Api</title>
-      <link>http://localhost:1313/tags/api/</link>
+      <link>https://ahmadrafly2023.github.io/tags/api/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/api/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/api/</guid>
       <description></description>
     </item>
     <item>
       <title>Bug Report</title>
-      <link>http://localhost:1313/tags/bug-report/</link>
+      <link>https://ahmadrafly2023.github.io/tags/bug-report/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bug-report/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/bug-report/</guid>
       <description></description>
     </item>
     <item>
       <title>Jest</title>
-      <link>http://localhost:1313/tags/jest/</link>
+      <link>https://ahmadrafly2023.github.io/tags/jest/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/jest/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/jest/</guid>
       <description></description>
     </item>
     <item>
       <title>Junit</title>
-      <link>http://localhost:1313/tags/junit/</link>
+      <link>https://ahmadrafly2023.github.io/tags/junit/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/junit/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/junit/</guid>
       <description></description>
     </item>
     <item>
       <title>Postman</title>
-      <link>http://localhost:1313/tags/postman/</link>
+      <link>https://ahmadrafly2023.github.io/tags/postman/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/postman/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/postman/</guid>
       <description></description>
     </item>
     <item>
       <title>Pytest</title>
-      <link>http://localhost:1313/tags/pytest/</link>
+      <link>https://ahmadrafly2023.github.io/tags/pytest/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pytest/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/pytest/</guid>
       <description></description>
     </item>
     <item>
       <title>QA</title>
-      <link>http://localhost:1313/tags/qa/</link>
+      <link>https://ahmadrafly2023.github.io/tags/qa/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/qa/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/qa/</guid>
       <description></description>
     </item>
     <item>
       <title>Scenario</title>
-      <link>http://localhost:1313/tags/scenario/</link>
+      <link>https://ahmadrafly2023.github.io/tags/scenario/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/scenario/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/scenario/</guid>
       <description></description>
     </item>
     <item>
       <title>Soapui</title>
-      <link>http://localhost:1313/tags/soapui/</link>
+      <link>https://ahmadrafly2023.github.io/tags/soapui/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/soapui/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/soapui/</guid>
       <description></description>
     </item>
     <item>
       <title>Test Case</title>
-      <link>http://localhost:1313/tags/test-case/</link>
+      <link>https://ahmadrafly2023.github.io/tags/test-case/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/test-case/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/test-case/</guid>
       <description></description>
     </item>
     <item>
       <title>Testing</title>
-      <link>http://localhost:1313/tags/testing/</link>
+      <link>https://ahmadrafly2023.github.io/tags/testing/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/testing/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Unit Testing</title>
-      <link>http://localhost:1313/tags/unit-testing/</link>
+      <link>https://ahmadrafly2023.github.io/tags/unit-testing/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/unit-testing/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/unit-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Accessibility</title>
-      <link>http://localhost:1313/tags/accessibility/</link>
+      <link>https://ahmadrafly2023.github.io/tags/accessibility/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/accessibility/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/accessibility/</guid>
       <description></description>
     </item>
     <item>
       <title>Planning</title>
-      <link>http://localhost:1313/tags/planning/</link>
+      <link>https://ahmadrafly2023.github.io/tags/planning/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/planning/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/planning/</guid>
       <description></description>
     </item>
     <item>
       <title>UI</title>
-      <link>http://localhost:1313/tags/ui/</link>
+      <link>https://ahmadrafly2023.github.io/tags/ui/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ui/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/ui/</guid>
       <description></description>
     </item>
     <item>
       <title>Usability</title>
-      <link>http://localhost:1313/tags/usability/</link>
+      <link>https://ahmadrafly2023.github.io/tags/usability/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/usability/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/usability/</guid>
       <description></description>
     </item>
     <item>
       <title>UX</title>
-      <link>http://localhost:1313/tags/ux/</link>
+      <link>https://ahmadrafly2023.github.io/tags/ux/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ux/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/ux/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>http://localhost:1313/tags/software/</link>
+      <link>https://ahmadrafly2023.github.io/tags/software/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/software/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Strategi</title>
-      <link>http://localhost:1313/tags/strategi/</link>
+      <link>https://ahmadrafly2023.github.io/tags/strategi/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/strategi/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/strategi/</guid>
       <description></description>
     </item>
     <item>
       <title>Automation</title>
-      <link>http://localhost:1313/tags/automation/</link>
+      <link>https://ahmadrafly2023.github.io/tags/automation/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/automation/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Cypress</title>
-      <link>http://localhost:1313/tags/cypress/</link>
+      <link>https://ahmadrafly2023.github.io/tags/cypress/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cypress/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/cypress/</guid>
       <description></description>
     </item>
     <item>
       <title>End-to-End Testing</title>
-      <link>http://localhost:1313/tags/end-to-end-testing/</link>
+      <link>https://ahmadrafly2023.github.io/tags/end-to-end-testing/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/end-to-end-testing/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/end-to-end-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>http://localhost:1313/tags/javascript/</link>
+      <link>https://ahmadrafly2023.github.io/tags/javascript/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/javascript/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Android</title>
-      <link>http://localhost:1313/tags/android/</link>
+      <link>https://ahmadrafly2023.github.io/tags/android/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/android/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/android/</guid>
       <description></description>
     </item>
     <item>
       <title>Figma</title>
-      <link>http://localhost:1313/tags/figma/</link>
+      <link>https://ahmadrafly2023.github.io/tags/figma/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/figma/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/figma/</guid>
       <description></description>
     </item>
     <item>
       <title>Flutter</title>
-      <link>http://localhost:1313/tags/flutter/</link>
+      <link>https://ahmadrafly2023.github.io/tags/flutter/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/flutter/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/flutter/</guid>
       <description></description>
     </item>
     <item>
       <title>Information System</title>
-      <link>http://localhost:1313/tags/information-system/</link>
+      <link>https://ahmadrafly2023.github.io/tags/information-system/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/information-system/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/information-system/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>http://localhost:1313/tags/java/</link>
+      <link>https://ahmadrafly2023.github.io/tags/java/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/java/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Laravel</title>
-      <link>http://localhost:1313/tags/laravel/</link>
+      <link>https://ahmadrafly2023.github.io/tags/laravel/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/laravel/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/laravel/</guid>
       <description></description>
     </item>
     <item>
       <title>Mobile</title>
-      <link>http://localhost:1313/tags/mobile/</link>
+      <link>https://ahmadrafly2023.github.io/tags/mobile/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mobile/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/mobile/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
-      <link>http://localhost:1313/tags/web/</link>
+      <link>https://ahmadrafly2023.github.io/tags/web/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/web/</guid>
+      <guid>https://ahmadrafly2023.github.io/tags/web/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on Ahmad Rafly Putra H</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>https://ahmadrafly2023.github.io/projects/</link>
     <description>Recent content in Projects on Ahmad Rafly Putra H</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ahmadrafly2023.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AgroVerify</title>
-      <link>http://localhost:1313/projects/agroverify/</link>
+      <link>https://ahmadrafly2023.github.io/projects/agroverify/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/agroverify/</guid>
+      <guid>https://ahmadrafly2023.github.io/projects/agroverify/</guid>
       <description>AgroVerify adalah aplikasi untuk mempermudah verifikasi data pertanian berbasis digital agar lebih transparan dan akurat.</description>
     </item>
     <item>
       <title>Ma$aTua</title>
-      <link>http://localhost:1313/projects/masatua/</link>
+      <link>https://ahmadrafly2023.github.io/projects/masatua/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/masatua/</guid>
+      <guid>https://ahmadrafly2023.github.io/projects/masatua/</guid>
       <description>Aplikasi Ma$aTua adalah aplikasi untuk membantu berbagai kalangan dalam merencanakan masa pensiunnya dengan matang.</description>
     </item>
     <item>
       <title>Sabe&#39;Ta</title>
-      <link>http://localhost:1313/projects/sabeta/</link>
+      <link>https://ahmadrafly2023.github.io/projects/sabeta/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/sabeta/</guid>
+      <guid>https://ahmadrafly2023.github.io/projects/sabeta/</guid>
       <description>Aplikasi Sabe&amp;#39;Ta adalah aplikasi untuk membantu kalangan UMKM yang berada di Wajo.</description>
     </item>
     <item>
       <title>Si-Ternak</title>
-      <link>http://localhost:1313/projects/siternak/</link>
+      <link>https://ahmadrafly2023.github.io/projects/siternak/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/siternak/</guid>
+      <guid>https://ahmadrafly2023.github.io/projects/siternak/</guid>
       <description>Aplikasi Si-Ternak adalah aplikasi mobile untuk membantu peternak dalam pendataan ternak, pemantauan kesehatan, dan pengelolaan jadwal penting secara digital.</description>
     </item>
   </channel>
