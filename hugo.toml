@@ -1,7 +1,7 @@
 baseURL = "https://ahmadrafly2023.github.io/portofolio-raflly/"
 publishDir = "docs"
 canonifyURLs = true
-relativeURLs = true
+relativeURLs = false
 
 languageCode = "en-us"
 title = "Ahmad Rafly Putra H"
