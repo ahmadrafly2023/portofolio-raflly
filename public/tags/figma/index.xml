@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Figma on Ahmad Rafly Putra H</title>
-    <link>https://ahmadrafly2023.github.io/tags/figma/</link>
+    <link>http://localhost:1313/portofolio-raflly/tags/figma/</link>
     <description>Recent content in Figma on Ahmad Rafly Putra H</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ahmadrafly2023.github.io/tags/figma/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/portofolio-raflly/tags/figma/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AgroVerify</title>
-      <link>https://ahmadrafly2023.github.io/projects/agroverify/</link>
+      <link>http://localhost:1313/portofolio-raflly/projects/agroverify/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/projects/agroverify/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/projects/agroverify/</guid>
       <description>AgroVerify adalah aplikasi untuk mempermudah verifikasi data pertanian berbasis digital agar lebih transparan dan akurat.</description>
     </item>
     <item>
       <title>Sabe&#39;Ta</title>
-      <link>https://ahmadrafly2023.github.io/projects/sabeta/</link>
+      <link>http://localhost:1313/portofolio-raflly/projects/sabeta/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/projects/sabeta/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/projects/sabeta/</guid>
       <description>Aplikasi Sabe&amp;#39;Ta adalah aplikasi untuk membantu kalangan UMKM yang berada di Wajo.</description>
     </item>
   </channel>

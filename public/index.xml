@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ahmad Rafly Putra H</title>
-    <link>https://ahmadrafly2023.github.io/</link>
+    <link>http://localhost:1313/portofolio-raflly/</link>
     <description>Recent content on Ahmad Rafly Putra H</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ahmadrafly2023.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/portofolio-raflly/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Selenium WebDriver</title>
-      <link>https://ahmadrafly2023.github.io/posts/selenium/</link>
+      <link>http://localhost:1313/portofolio-raflly/posts/selenium/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/posts/selenium/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/posts/selenium/</guid>
       <description>Rangkuman mendalam tentang konsep, fungsi, cara kerja, instalasi, dan penerapan Selenium WebDriver untuk otomatisasi pengujian aplikasi web.</description>
     </item>
     <item>
       <title>API Testing</title>
-      <link>https://ahmadrafly2023.github.io/posts/apitesting/</link>
+      <link>http://localhost:1313/portofolio-raflly/posts/apitesting/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/posts/apitesting/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/posts/apitesting/</guid>
       <description>Rangkuman lengkap tentang konsep, manfaat, komponen dasar, langkah instalasi, serta contoh penggunaan API Testing menggunakan Postman dan SOAPUI.</description>
     </item>
     <item>
       <title>Test Scenario, Test Case, dan Bug Report</title>
-      <link>https://ahmadrafly2023.github.io/posts/testscanario/</link>
+      <link>http://localhost:1313/portofolio-raflly/posts/testscanario/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/posts/testscanario/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/posts/testscanario/</guid>
       <description>Rangkuman komprehensif tentang konsep, struktur, dan implementasi test scenario, test case, serta bug report dalam proses pengujian perangkat lunak.</description>
     </item>
     <item>
       <title>Unit Testing</title>
-      <link>https://ahmadrafly2023.github.io/posts/unittesting/</link>
+      <link>http://localhost:1313/portofolio-raflly/posts/unittesting/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/posts/unittesting/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/posts/unittesting/</guid>
       <description>Rangkuman mendalam tentang konsep, manfaat, pola dasar, dan penerapan Unit Testing menggunakan framework populer seperti Pytest, JUnit, dan Jest.</description>
     </item>
     <item>
       <title>Software Testing Plan</title>
-      <link>https://ahmadrafly2023.github.io/posts/testingplan/</link>
+      <link>http://localhost:1313/portofolio-raflly/posts/testingplan/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/posts/testingplan/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/posts/testingplan/</guid>
       <description>Rangkuman mendalam mengenai konsep, tujuan, komponen, dan struktur pembuatan rencana pengujian perangkat lunak (Testing Plan) berdasarkan standar IEEE 829-1988.</description>
     </item>
     <item>
       <title>UI/UX Testing</title>
-      <link>https://ahmadrafly2023.github.io/posts/uxtesitng/</link>
+      <link>http://localhost:1313/portofolio-raflly/posts/uxtesitng/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/posts/uxtesitng/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/posts/uxtesitng/</guid>
       <description>Rangkuman komprehensif tentang konsep, fokus, metode, dan contoh penerapan UI dan UX Testing.</description>
     </item>
     <item>
       <title>Strategi Software Testing</title>
-      <link>https://ahmadrafly2023.github.io/posts/softwaretesting/</link>
+      <link>http://localhost:1313/portofolio-raflly/posts/softwaretesting/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/posts/softwaretesting/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/posts/softwaretesting/</guid>
       <description>Ikhtisar komprehensif tentang tujuan, siklus, dan klasifikasi pengujian perangkat lunak — dilengkapi contoh nyata.</description>
     </item>
     <item>
       <title>Cypress</title>
-      <link>https://ahmadrafly2023.github.io/posts/cypress/</link>
+      <link>http://localhost:1313/portofolio-raflly/posts/cypress/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/posts/cypress/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/posts/cypress/</guid>
       <description>Rangkuman lengkap tentang konsep, fitur, langkah instalasi, serta penerapan Cypress sebagai framework modern untuk pengujian end-to-end aplikasi web.</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://ahmadrafly2023.github.io/about/</link>
+      <link>http://localhost:1313/portofolio-raflly/about/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/about/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/about/</guid>
       <description>&lt;h2 id=&#34;tentang-saya&#34;&gt;Tentang Saya&lt;/h2&gt;
 &lt;p&gt;Saya &lt;strong&gt;Ahmad Rafly Putra Hasrun&lt;/strong&gt;, mahasiswa &lt;strong&gt;S1 Sistem Informasi – Universitas Hasanuddin&lt;/strong&gt; (IPK 3.74) yang fokus pada &lt;strong&gt;analisis sistem&lt;/strong&gt;, &lt;strong&gt;UI/UX&lt;/strong&gt;, dan &lt;strong&gt;pengembangan aplikasi mobile&lt;/strong&gt; dengan integrasi &lt;strong&gt;IoT (ESP32)&lt;/strong&gt;. Saya menikmati proses menggali kebutuhan, merancang solusi, dan memvalidasi lewat pengujian pengguna—mencari dampak nyata dari teknologi di lapangan.&lt;/p&gt;
 &lt;h2 id=&#34;apa-yang-saya-kerjakan&#34;&gt;Apa yang Saya Kerjakan&lt;/h2&gt;
@@ -109,30 +109,30 @@ SMAN 6 Makassar (2020–2023) · SMPN 35 Makassar (2017–2019)&lt;/p&gt;</descr
     </item>
     <item>
       <title>AgroVerify</title>
-      <link>https://ahmadrafly2023.github.io/projects/agroverify/</link>
+      <link>http://localhost:1313/portofolio-raflly/projects/agroverify/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/projects/agroverify/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/projects/agroverify/</guid>
       <description>AgroVerify adalah aplikasi untuk mempermudah verifikasi data pertanian berbasis digital agar lebih transparan dan akurat.</description>
     </item>
     <item>
       <title>Ma$aTua</title>
-      <link>https://ahmadrafly2023.github.io/projects/masatua/</link>
+      <link>http://localhost:1313/portofolio-raflly/projects/masatua/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/projects/masatua/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/projects/masatua/</guid>
       <description>Aplikasi Ma$aTua adalah aplikasi untuk membantu berbagai kalangan dalam merencanakan masa pensiunnya dengan matang.</description>
     </item>
     <item>
       <title>Sabe&#39;Ta</title>
-      <link>https://ahmadrafly2023.github.io/projects/sabeta/</link>
+      <link>http://localhost:1313/portofolio-raflly/projects/sabeta/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/projects/sabeta/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/projects/sabeta/</guid>
       <description>Aplikasi Sabe&amp;#39;Ta adalah aplikasi untuk membantu kalangan UMKM yang berada di Wajo.</description>
     </item>
     <item>
       <title>Si-Ternak</title>
-      <link>https://ahmadrafly2023.github.io/projects/siternak/</link>
+      <link>http://localhost:1313/portofolio-raflly/projects/siternak/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/projects/siternak/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/projects/siternak/</guid>
       <description>Aplikasi Si-Ternak adalah aplikasi mobile untuk membantu peternak dalam pendataan ternak, pemantauan kesehatan, dan pengelolaan jadwal penting secara digital.</description>
     </item>
   </channel>

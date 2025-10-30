@@ -1,8 +1,3 @@
-baseURL: "https://ahmadrafly2023.github.io/portofolio-raflly/"
-publishDir: "docs"
-canonifyURLs: true
-relativeURLs: true
-
 module:
     hugoVersion:
         extended: true

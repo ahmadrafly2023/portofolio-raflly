@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Software Testing Plan | Ahmad Rafly Putra H</title>
+<meta name="keywords" content="testing, planning, QA, software testing">
+<meta name="description" content="Rangkuman mendalam mengenai konsep, tujuan, komponen, dan struktur pembuatan rencana pengujian perangkat lunak (Testing Plan) berdasarkan standar IEEE 829-1988.">
+<meta name="author" content="Ahmad Rafly">
+<link rel="canonical" href="https://ahmadrafly2023.github.io/portofolio-raflly/posts/testingplan/">
+<link crossorigin="anonymous" href="../../portofolio-raflly/assets/css/stylesheet.08f7d74f0ada0f975d29ae436285b61ed7a719d05f350cb888d00341642995a2.css" integrity="sha256-CPfXTwraD5ddKa5DYoW2HtenGdBfNQy4iNADQWQplaI=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ahmadrafly2023.github.io/portofolio-raflly/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ahmadrafly2023.github.io/portofolio-raflly/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ahmadrafly2023.github.io/portofolio-raflly/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://ahmadrafly2023.github.io/portofolio-raflly/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ahmadrafly2023.github.io/portofolio-raflly/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://ahmadrafly2023.github.io/portofolio-raflly/posts/testingplan/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://ahmadrafly2023.github.io/portofolio-raflly/posts/testingplan/">
+  <meta property="og:site_name" content="Ahmad Rafly Putra H">
+  <meta property="og:title" content="Software Testing Plan">
+  <meta property="og:description" content="Rangkuman mendalam mengenai konsep, tujuan, komponen, dan struktur pembuatan rencana pengujian perangkat lunak (Testing Plan) berdasarkan standar IEEE 829-1988.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-10-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-10-28T00:00:00+00:00">
+    <meta property="article:tag" content="Testing">
+    <meta property="article:tag" content="Planning">
+    <meta property="article:tag" content="QA">
+    <meta property="article:tag" content="Software Testing">
+    <meta property="og:image" content="https://ahmadrafly2023.github.io/posts/testingplan/images/posts/testingplan.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://ahmadrafly2023.github.io/posts/testingplan/images/posts/testingplan.png">
+<meta name="twitter:title" content="Software Testing Plan">
+<meta name="twitter:description" content="Rangkuman mendalam mengenai konsep, tujuan, komponen, dan struktur pembuatan rencana pengujian perangkat lunak (Testing Plan) berdasarkan standar IEEE 829-1988.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://ahmadrafly2023.github.io/portofolio-raflly/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Software Testing Plan",
+      "item": "https://ahmadrafly2023.github.io/portofolio-raflly/posts/testingplan/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Software Testing Plan",
+  "name": "Software Testing Plan",
+  "description": "Rangkuman mendalam mengenai konsep, tujuan, komponen, dan struktur pembuatan rencana pengujian perangkat lunak (Testing Plan) berdasarkan standar IEEE 829-1988.",
+  "keywords": [
+    "testing", "planning", "QA", "software testing"
+  ],
+  "articleBody": "Pengantar Testing Plan atau Rencana Pengujian adalah dokumen panduan yang menjelaskan bagaimana proses pengujian perangkat lunak akan dilakukan.\nDi dalamnya terdapat ruang lingkup pengujian, strategi yang digunakan, sumber daya (tim, alat, data uji), dan jadwal pelaksanaan.\nDokumen ini menjadi acuan resmi bagi tim QA agar kegiatan pengujian lebih terarah, konsisten, dan terdokumentasi dengan baik 🎯 Tujuan Testing Plan Rencana pengujian dibuat untuk:\nMemberikan gambaran jelas tentang apa yang akan diuji dan bagaimana cara mengujinya. Memastikan efisiensi penggunaan waktu, biaya, dan tenaga. Menjamin perangkat lunak mencapai kualitas yang dapat diterima oleh pengguna. Menjadi dokumen referensi \u0026 evaluasi untuk proyek-proyek berikutnya 🧩 Komponen Testing Plan Menurut standar IEEE 829-1988, sebuah Test Plan mencakup 19 komponen utama :\nTest Plan Identifier References Introduction Test Items Software Risk Issues Features to be Tested Features not to be Tested Approach Item Pass/Fail Criteria Suspension Criteria and Resumption Requirements Test Deliverables Remaining Test Tasks Environmental Needs Staffing and Training Needs Responsibilities Schedule Planning Risks and Contingencies Approvals Glossary 🧱 Komponen dan Penjelasan Lengkap 1. Test Plan Identifier Kode unik yang digunakan untuk membedakan rencana pengujian antar proyek atau versi aplikasi.\nFungsi: mempermudah revisi, tracking dokumen, dan mencegah kebingungan antar versi.\n2. References Berisi daftar dokumen pendukung seperti requirement document, design document, atau SRS (Software Requirement Specification).\nTujuan: memastikan test plan selaras dengan kebutuhan sistem utama.\n3. Introduction Menjelaskan tujuan, ruang lingkup, serta fokus pengujian secara umum.\nFungsi: memberikan gambaran singkat kepada stakeholder sebelum masuk ke aspek teknis.\n4. Test Items Merinci komponen atau modul perangkat lunak yang akan diuji.\nContoh: halaman login, modul pembayaran, atau sistem notifikasi\n5. Software Risk Issues Mengidentifikasi potensi risiko selama proses pengujian, misalnya:\nFitur baru atau kompleks. Integrasi dengan sistem eksternal. Kebutuhan yang belum jelas.\nTujuan: mempersiapkan strategi mitigasi terhadap risiko yang bisa menunda pengujian 6. Features to be Tested Menentukan fungsi atau fitur yang akan diuji dari sudut pandang pengguna.\nContoh: uji login, register, upload data, dan pencarian produk\n7. Features Not to be Tested Fitur yang dikecualikan dari pengujian beserta alasannya.\nContoh: modul lama yang tidak berubah atau fitur yang belum siap dirilis\n⚙️ Pendekatan \u0026 Strategi Pengujian 8. Approach Menjelaskan strategi umum pengujian:\nJenis pengujian: Unit, Integration, System, atau Acceptance. Teknik pengujian: Black-box, White-box, atau Gray-box. Metode pelaksanaan: Manual atau otomatis. Tujuan: Validasi fungsionalitas, performa, keamanan, atau reliabilitas sistem ✅ Kriteria Keberhasilan dan Kegagalan 9. Item Pass/Fail Criteria Menetapkan standar terukur untuk menentukan keberhasilan pengujian:\nPass: Semua test case berjalan sesuai harapan, tanpa bug mayor. Fail: Terdapat defect kritis yang menghambat fungsionalitas utama 10. Suspension Criteria \u0026 Resumption Requirements Suspension Criteria: Kondisi ketika pengujian harus dihentikan sementara (misalnya bug kritis). Resumption Requirements: Syarat untuk melanjutkan pengujian setelah masalah diperbaiki 📦 Deliverables \u0026 Lingkungan Pengujian 11. Test Deliverables Dokumen hasil pengujian seperti:\nTest Plan, Test Case, Test Data Laporan bug dan Test Summary Report 12. Remaining Test Tasks Daftar pekerjaan atau skenario uji yang belum selesai, termasuk prioritas penyelesaiannya\n13. Environmental Needs Menjelaskan konfigurasi hardware, software, data uji, credential, serta jaringan yang diperlukan agar pengujian valid dan bisa direproduksi 👥 Peran, Tim, dan Tanggung Jawab 14. Staffing and Training Needs Menjelaskan peran (Test Manager, Tester, Developer) dan pelatihan yang dibutuhkan agar tim siap sebelum pengujian dimulai.\n15. Responsibilities Menentukan siapa yang bertanggung jawab atas setiap tahap, seperti koordinasi, verifikasi bug, dan pelaporan hasil.\nTujuan: mempercepat proses eskalasi dan komunikasi antar tim 🗓️ Jadwal, Risiko, dan Persetujuan 16. Schedule Menentukan waktu pelaksanaan, periode eksekusi, sesi retest, serta sign-off release.\nContoh milestone:\nReview test case → Minggu 1 System testing → Minggu 3 User Acceptance Testing → Minggu 4 17. Planning Risks and Contingencies Menyiapkan langkah mitigasi terhadap risiko yang mungkin mempengaruhi jadwal, seperti keterlambatan build atau kekurangan data uji.\n18. Approvals Berisi tanda tangan pihak-pihak yang menyetujui ruang lingkup dan jadwal, seperti manajer proyek dan manajer QA\n19. Glossary Menjelaskan istilah teknis agar semua pihak (termasuk non-teknis) memiliki pemahaman yang sama, misalnya definisi “test case”, “build”, atau “bug severity”\n📋 Contoh Skenario Implementasi Testing Plan Misalnya proyek aplikasi e-commerce:\nScope: modul login, checkout, dan notifikasi. Approach: kombinasi black-box \u0026 automated regression testing. Risk Issue: ketergantungan API pihak ketiga. Deliverable: laporan bug mingguan dan test summary bulanan. Schedule: pengujian selama 3 minggu dengan satu minggu buffer untuk retesting. 💡 Kesimpulan Testing Plan adalah dokumen strategis yang menjadi fondasi seluruh aktivitas QA.\nDengan menyusun komponen lengkap berdasarkan IEEE 829-1988, tim dapat memastikan pengujian dilakukan secara terstruktur, efisien, terukur, dan terdokumentasi dengan baik.\nRencana pengujian yang matang membantu menghindari risiko besar, meningkatkan kualitas produk, dan memperkuat kepercayaan pengguna terhadap perangkat lunak yang dirilis\n",
+  "wordCount" : "750",
+  "inLanguage": "en",
+  "image":"https://ahmadrafly2023.github.io/posts/testingplan/images/posts/testingplan.png","datePublished": "2025-10-28T00:00:00Z",
+  "dateModified": "2025-10-28T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Ahmad Rafly"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ahmadrafly2023.github.io/portofolio-raflly/posts/testingplan/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ahmad Rafly Putra H",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ahmadrafly2023.github.io/portofolio-raflly/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ahmadrafly2023.github.io/portofolio-raflly/" accesskey="h" title="Ahmad Rafly Putra H (Alt + H)">Ahmad Rafly Putra H</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ahmadrafly2023.github.io/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ahmadrafly2023.github.io/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ahmadrafly2023.github.io/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ahmadrafly2023.github.io/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://ahmadrafly2023.github.io/portofolio-raflly/">Home</a>&nbsp;»&nbsp;<a href="https://ahmadrafly2023.github.io/portofolio-raflly/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Software Testing Plan
+    </h1>
+    <div class="post-description">
+      Rangkuman mendalam mengenai konsep, tujuan, komponen, dan struktur pembuatan rencana pengujian perangkat lunak (Testing Plan) berdasarkan standar IEEE 829-1988.
+    </div>
+    <div class="post-meta"><span title='2025-10-28 00:00:00 +0000 UTC'>October 28, 2025</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;750 words&nbsp;·&nbsp;Ahmad Rafly
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://ahmadrafly2023.github.io/portofolio-raflly/images/posts/testingplan.png" alt="Software Testing Plan Illustration">
+        
+</figure>
+  <div class="post-content"><h2 id="pengantar">Pengantar<a hidden class="anchor" aria-hidden="true" href="#pengantar">#</a></h2>
+<h2 id="dokumen-ini-menjadi-acuan-resmi-bagi-tim-qa-agar-kegiatan-pengujian-lebih-terarah-konsisten-dan-terdokumentasi-dengan-baik"><strong>Testing Plan</strong> atau <strong>Rencana Pengujian</strong> adalah dokumen panduan yang menjelaskan bagaimana proses pengujian perangkat lunak akan dilakukan.<br>
+Di dalamnya terdapat <strong>ruang lingkup pengujian, strategi yang digunakan, sumber daya (tim, alat, data uji), dan jadwal pelaksanaan</strong>.<br>
+Dokumen ini menjadi <strong>acuan resmi</strong> bagi tim QA agar kegiatan pengujian lebih <strong>terarah, konsisten, dan terdokumentasi dengan baik</strong></h2>
+<h2 id="-tujuan-testing-plan">🎯 Tujuan Testing Plan<a hidden class="anchor" aria-hidden="true" href="#-tujuan-testing-plan">#</a></h2>
+<p>Rencana pengujian dibuat untuk:</p>
+<ul>
+<li>Memberikan <strong>gambaran jelas</strong> tentang apa yang akan diuji dan bagaimana cara mengujinya.</li>
+<li><strong>Memastikan efisiensi</strong> penggunaan waktu, biaya, dan tenaga.</li>
+<li>Menjamin perangkat lunak mencapai <strong>kualitas yang dapat diterima oleh pengguna</strong>.</li>
+<li>Menjadi <strong>dokumen referensi &amp; evaluasi</strong> untuk proyek-proyek berikutnya</li>
+</ul>
+<hr>
+<h2 id="-komponen-testing-plan">🧩 Komponen Testing Plan<a hidden class="anchor" aria-hidden="true" href="#-komponen-testing-plan">#</a></h2>
+<p>Menurut <strong>standar IEEE 829-1988</strong>, sebuah <em>Test Plan</em> mencakup 19 komponen utama :</p>
+<ol>
+<li>Test Plan Identifier</li>
+<li>References</li>
+<li>Introduction</li>
+<li>Test Items</li>
+<li>Software Risk Issues</li>
+<li>Features to be Tested</li>
+<li>Features not to be Tested</li>
+<li>Approach</li>
+<li>Item Pass/Fail Criteria</li>
+<li>Suspension Criteria and Resumption Requirements</li>
+<li>Test Deliverables</li>
+<li>Remaining Test Tasks</li>
+<li>Environmental Needs</li>
+<li>Staffing and Training Needs</li>
+<li>Responsibilities</li>
+<li>Schedule</li>
+<li>Planning Risks and Contingencies</li>
+<li>Approvals</li>
+<li>Glossary</li>
+</ol>
+<hr>
+<h2 id="-komponen-dan-penjelasan-lengkap">🧱 Komponen dan Penjelasan Lengkap<a hidden class="anchor" aria-hidden="true" href="#-komponen-dan-penjelasan-lengkap">#</a></h2>
+<h3 id="1-test-plan-identifier">1. <strong>Test Plan Identifier</strong><a hidden class="anchor" aria-hidden="true" href="#1-test-plan-identifier">#</a></h3>
+<p>Kode unik yang digunakan untuk membedakan rencana pengujian antar proyek atau versi aplikasi.<br>
+<strong>Fungsi:</strong> mempermudah revisi, tracking dokumen, dan mencegah kebingungan antar versi.</p>
+<h3 id="2-references">2. <strong>References</strong><a hidden class="anchor" aria-hidden="true" href="#2-references">#</a></h3>
+<p>Berisi daftar dokumen pendukung seperti <em>requirement document, design document</em>, atau <em>SRS (Software Requirement Specification)</em>.<br>
+<strong>Tujuan:</strong> memastikan test plan selaras dengan kebutuhan sistem utama.</p>
+<h3 id="3-introduction">3. <strong>Introduction</strong><a hidden class="anchor" aria-hidden="true" href="#3-introduction">#</a></h3>
+<p>Menjelaskan tujuan, ruang lingkup, serta fokus pengujian secara umum.<br>
+<strong>Fungsi:</strong> memberikan gambaran singkat kepada stakeholder sebelum masuk ke aspek teknis.</p>
+<h3 id="4-test-items">4. <strong>Test Items</strong><a hidden class="anchor" aria-hidden="true" href="#4-test-items">#</a></h3>
+<p>Merinci komponen atau modul perangkat lunak yang akan diuji.<br>
+<strong>Contoh:</strong> halaman login, modul pembayaran, atau sistem notifikasi</p>
+<h3 id="5-software-risk-issues">5. <strong>Software Risk Issues</strong><a hidden class="anchor" aria-hidden="true" href="#5-software-risk-issues">#</a></h3>
+<p>Mengidentifikasi potensi risiko selama proses pengujian, misalnya:</p>
+<ul>
+<li>Fitur baru atau kompleks.</li>
+<li>Integrasi dengan sistem eksternal.</li>
+<li>Kebutuhan yang belum jelas.<br>
+<strong>Tujuan:</strong> mempersiapkan strategi mitigasi terhadap risiko yang bisa menunda pengujian</li>
+</ul>
+<h3 id="6-features-to-be-tested">6. <strong>Features to be Tested</strong><a hidden class="anchor" aria-hidden="true" href="#6-features-to-be-tested">#</a></h3>
+<p>Menentukan fungsi atau fitur yang akan diuji dari sudut pandang pengguna.<br>
+<strong>Contoh:</strong> uji login, register, upload data, dan pencarian produk</p>
+<h3 id="7-features-not-to-be-tested">7. <strong>Features Not to be Tested</strong><a hidden class="anchor" aria-hidden="true" href="#7-features-not-to-be-tested">#</a></h3>
+<p>Fitur yang dikecualikan dari pengujian beserta alasannya.<br>
+<strong>Contoh:</strong> modul lama yang tidak berubah atau fitur yang belum siap dirilis</p>
+<hr>
+<h2 id="-pendekatan--strategi-pengujian">⚙️ Pendekatan &amp; Strategi Pengujian<a hidden class="anchor" aria-hidden="true" href="#-pendekatan--strategi-pengujian">#</a></h2>
+<h3 id="8-approach">8. <strong>Approach</strong><a hidden class="anchor" aria-hidden="true" href="#8-approach">#</a></h3>
+<p>Menjelaskan strategi umum pengujian:</p>
+<ul>
+<li><strong>Jenis pengujian:</strong> Unit, Integration, System, atau Acceptance.</li>
+<li><strong>Teknik pengujian:</strong> Black-box, White-box, atau Gray-box.</li>
+<li><strong>Metode pelaksanaan:</strong> Manual atau otomatis.</li>
+<li><strong>Tujuan:</strong> Validasi fungsionalitas, performa, keamanan, atau reliabilitas sistem</li>
+</ul>
+<hr>
+<h2 id="-kriteria-keberhasilan-dan-kegagalan">✅ Kriteria Keberhasilan dan Kegagalan<a hidden class="anchor" aria-hidden="true" href="#-kriteria-keberhasilan-dan-kegagalan">#</a></h2>
+<h3 id="9-item-passfail-criteria">9. <strong>Item Pass/Fail Criteria</strong><a hidden class="anchor" aria-hidden="true" href="#9-item-passfail-criteria">#</a></h3>
+<p>Menetapkan standar terukur untuk menentukan keberhasilan pengujian:</p>
+<ul>
+<li><strong>Pass:</strong> Semua test case berjalan sesuai harapan, tanpa bug mayor.</li>
+<li><strong>Fail:</strong> Terdapat defect kritis yang menghambat fungsionalitas utama</li>
+</ul>
+<h3 id="10-suspension-criteria--resumption-requirements">10. <strong>Suspension Criteria &amp; Resumption Requirements</strong><a hidden class="anchor" aria-hidden="true" href="#10-suspension-criteria--resumption-requirements">#</a></h3>
+<ul>
+<li><strong>Suspension Criteria:</strong> Kondisi ketika pengujian harus dihentikan sementara (misalnya bug kritis).</li>
+<li><strong>Resumption Requirements:</strong> Syarat untuk melanjutkan pengujian setelah masalah diperbaiki</li>
+</ul>
+<hr>
+<h2 id="-deliverables--lingkungan-pengujian">📦 Deliverables &amp; Lingkungan Pengujian<a hidden class="anchor" aria-hidden="true" href="#-deliverables--lingkungan-pengujian">#</a></h2>
+<h3 id="11-test-deliverables">11. <strong>Test Deliverables</strong><a hidden class="anchor" aria-hidden="true" href="#11-test-deliverables">#</a></h3>
+<p>Dokumen hasil pengujian seperti:</p>
+<ul>
+<li>Test Plan, Test Case, Test Data</li>
+<li>Laporan bug dan Test Summary Report</li>
+</ul>
+<h3 id="12-remaining-test-tasks">12. <strong>Remaining Test Tasks</strong><a hidden class="anchor" aria-hidden="true" href="#12-remaining-test-tasks">#</a></h3>
+<p>Daftar pekerjaan atau skenario uji yang belum selesai, termasuk prioritas penyelesaiannya</p>
+<h3 id="13-environmental-needs">13. <strong>Environmental Needs</strong><a hidden class="anchor" aria-hidden="true" href="#13-environmental-needs">#</a></h3>
+<h2 id="menjelaskan-konfigurasi-hardware-software-data-uji-credential-serta-jaringan-yang-diperlukan-agar-pengujian-valid-dan-bisa-direproduksi">Menjelaskan konfigurasi hardware, software, data uji, credential, serta jaringan yang diperlukan agar pengujian valid dan bisa direproduksi<a hidden class="anchor" aria-hidden="true" href="#menjelaskan-konfigurasi-hardware-software-data-uji-credential-serta-jaringan-yang-diperlukan-agar-pengujian-valid-dan-bisa-direproduksi">#</a></h2>
+<h2 id="-peran-tim-dan-tanggung-jawab">👥 Peran, Tim, dan Tanggung Jawab<a hidden class="anchor" aria-hidden="true" href="#-peran-tim-dan-tanggung-jawab">#</a></h2>
+<h3 id="14-staffing-and-training-needs">14. <strong>Staffing and Training Needs</strong><a hidden class="anchor" aria-hidden="true" href="#14-staffing-and-training-needs">#</a></h3>
+<p>Menjelaskan peran (Test Manager, Tester, Developer) dan pelatihan yang dibutuhkan agar tim siap sebelum pengujian dimulai.</p>
+<h3 id="15-responsibilities">15. <strong>Responsibilities</strong><a hidden class="anchor" aria-hidden="true" href="#15-responsibilities">#</a></h3>
+<h2 id="tujuan-mempercepat-proses-eskalasi-dan-komunikasi-antar-tim">Menentukan siapa yang bertanggung jawab atas setiap tahap, seperti koordinasi, verifikasi bug, dan pelaporan hasil.<br>
+<strong>Tujuan:</strong> mempercepat proses eskalasi dan komunikasi antar tim</h2>
+<h2 id="-jadwal-risiko-dan-persetujuan">🗓️ Jadwal, Risiko, dan Persetujuan<a hidden class="anchor" aria-hidden="true" href="#-jadwal-risiko-dan-persetujuan">#</a></h2>
+<h3 id="16-schedule">16. <strong>Schedule</strong><a hidden class="anchor" aria-hidden="true" href="#16-schedule">#</a></h3>
+<p>Menentukan waktu pelaksanaan, periode eksekusi, sesi retest, serta <em>sign-off release</em>.<br>
+<strong>Contoh milestone:</strong></p>
+<ul>
+<li>Review test case → Minggu 1</li>
+<li>System testing → Minggu 3</li>
+<li>User Acceptance Testing → Minggu 4</li>
+</ul>
+<h3 id="17-planning-risks-and-contingencies">17. <strong>Planning Risks and Contingencies</strong><a hidden class="anchor" aria-hidden="true" href="#17-planning-risks-and-contingencies">#</a></h3>
+<p>Menyiapkan langkah mitigasi terhadap risiko yang mungkin mempengaruhi jadwal, seperti keterlambatan build atau kekurangan data uji.</p>
+<h3 id="18-approvals">18. <strong>Approvals</strong><a hidden class="anchor" aria-hidden="true" href="#18-approvals">#</a></h3>
+<p>Berisi tanda tangan pihak-pihak yang menyetujui ruang lingkup dan jadwal, seperti manajer proyek dan manajer QA</p>
+<h3 id="19-glossary">19. <strong>Glossary</strong><a hidden class="anchor" aria-hidden="true" href="#19-glossary">#</a></h3>
+<p>Menjelaskan istilah teknis agar semua pihak (termasuk non-teknis) memiliki pemahaman yang sama, misalnya definisi &ldquo;test case&rdquo;, &ldquo;build&rdquo;, atau &ldquo;bug severity&rdquo;</p>
+<hr>
+<h2 id="-contoh-skenario-implementasi-testing-plan">📋 Contoh Skenario Implementasi Testing Plan<a hidden class="anchor" aria-hidden="true" href="#-contoh-skenario-implementasi-testing-plan">#</a></h2>
+<p>Misalnya proyek aplikasi e-commerce:</p>
+<ul>
+<li><strong>Scope:</strong> modul login, checkout, dan notifikasi.</li>
+<li><strong>Approach:</strong> kombinasi black-box &amp; automated regression testing.</li>
+<li><strong>Risk Issue:</strong> ketergantungan API pihak ketiga.</li>
+<li><strong>Deliverable:</strong> laporan bug mingguan dan test summary bulanan.</li>
+<li><strong>Schedule:</strong> pengujian selama 3 minggu dengan satu minggu buffer untuk retesting.</li>
+</ul>
+<hr>
+<h2 id="-kesimpulan">💡 Kesimpulan<a hidden class="anchor" aria-hidden="true" href="#-kesimpulan">#</a></h2>
+<p>Testing Plan adalah <strong>dokumen strategis</strong> yang menjadi fondasi seluruh aktivitas QA.<br>
+Dengan menyusun komponen lengkap berdasarkan <strong>IEEE 829-1988</strong>, tim dapat memastikan pengujian dilakukan secara <strong>terstruktur, efisien, terukur, dan terdokumentasi dengan baik</strong>.<br>
+Rencana pengujian yang matang membantu menghindari risiko besar, meningkatkan kualitas produk, dan memperkuat kepercayaan pengguna terhadap perangkat lunak yang dirilis</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://ahmadrafly2023.github.io/portofolio-raflly/tags/testing/">Testing</a></li>
+      <li><a href="https://ahmadrafly2023.github.io/portofolio-raflly/tags/planning/">Planning</a></li>
+      <li><a href="https://ahmadrafly2023.github.io/portofolio-raflly/tags/qa/">QA</a></li>
+      <li><a href="https://ahmadrafly2023.github.io/portofolio-raflly/tags/software-testing/">Software Testing</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://ahmadrafly2023.github.io/portofolio-raflly/posts/unittesting/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Unit Testing</span>
+  </a>
+  <a class="next" href="https://ahmadrafly2023.github.io/portofolio-raflly/posts/uxtesitng/">
+    <span class="title">Next »</span>
+    <br>
+    <span>UI/UX Testing</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Software Testing Plan on x"
+            href="https://x.com/intent/tweet/?text=Software%20Testing%20Plan&amp;url=https%3a%2f%2fahmadrafly2023.github.io%2fportofolio-raflly%2fposts%2ftestingplan%2f&amp;hashtags=testing%2cplanning%2cQA%2csoftwaretesting">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Software Testing Plan on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fahmadrafly2023.github.io%2fportofolio-raflly%2fposts%2ftestingplan%2f&amp;title=Software%20Testing%20Plan&amp;summary=Software%20Testing%20Plan&amp;source=https%3a%2f%2fahmadrafly2023.github.io%2fportofolio-raflly%2fposts%2ftestingplan%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Software Testing Plan on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fahmadrafly2023.github.io%2fportofolio-raflly%2fposts%2ftestingplan%2f&title=Software%20Testing%20Plan">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Software Testing Plan on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fahmadrafly2023.github.io%2fportofolio-raflly%2fposts%2ftestingplan%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Software Testing Plan on whatsapp"
+            href="https://api.whatsapp.com/send?text=Software%20Testing%20Plan%20-%20https%3a%2f%2fahmadrafly2023.github.io%2fportofolio-raflly%2fposts%2ftestingplan%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Software Testing Plan on telegram"
+            href="https://telegram.me/share/url?text=Software%20Testing%20Plan&amp;url=https%3a%2f%2fahmadrafly2023.github.io%2fportofolio-raflly%2fposts%2ftestingplan%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Software Testing Plan on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Software%20Testing%20Plan&u=https%3a%2f%2fahmadrafly2023.github.io%2fportofolio-raflly%2fposts%2ftestingplan%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://ahmadrafly2023.github.io/portofolio-raflly/">Ahmad Rafly Putra H</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

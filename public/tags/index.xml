@@ -2,262 +2,262 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Ahmad Rafly Putra H</title>
-    <link>https://ahmadrafly2023.github.io/tags/</link>
+    <link>http://localhost:1313/portofolio-raflly/tags/</link>
     <description>Recent content in Tags on Ahmad Rafly Putra H</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ahmadrafly2023.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/portofolio-raflly/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automation Testing</title>
-      <link>https://ahmadrafly2023.github.io/tags/automation-testing/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/automation-testing/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/automation-testing/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/automation-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://ahmadrafly2023.github.io/tags/python/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/python/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/python/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Selenium</title>
-      <link>https://ahmadrafly2023.github.io/tags/selenium/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/selenium/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/selenium/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/selenium/</guid>
       <description></description>
     </item>
     <item>
       <title>Software Testing</title>
-      <link>https://ahmadrafly2023.github.io/tags/software-testing/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/software-testing/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/software-testing/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/software-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Webdriver</title>
-      <link>https://ahmadrafly2023.github.io/tags/webdriver/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/webdriver/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/webdriver/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/webdriver/</guid>
       <description></description>
     </item>
     <item>
       <title>Api</title>
-      <link>https://ahmadrafly2023.github.io/tags/api/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/api/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/api/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/api/</guid>
       <description></description>
     </item>
     <item>
       <title>Bug Report</title>
-      <link>https://ahmadrafly2023.github.io/tags/bug-report/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/bug-report/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/bug-report/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/bug-report/</guid>
       <description></description>
     </item>
     <item>
       <title>Jest</title>
-      <link>https://ahmadrafly2023.github.io/tags/jest/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/jest/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/jest/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/jest/</guid>
       <description></description>
     </item>
     <item>
       <title>Junit</title>
-      <link>https://ahmadrafly2023.github.io/tags/junit/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/junit/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/junit/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/junit/</guid>
       <description></description>
     </item>
     <item>
       <title>Postman</title>
-      <link>https://ahmadrafly2023.github.io/tags/postman/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/postman/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/postman/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/postman/</guid>
       <description></description>
     </item>
     <item>
       <title>Pytest</title>
-      <link>https://ahmadrafly2023.github.io/tags/pytest/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/pytest/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/pytest/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/pytest/</guid>
       <description></description>
     </item>
     <item>
       <title>QA</title>
-      <link>https://ahmadrafly2023.github.io/tags/qa/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/qa/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/qa/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/qa/</guid>
       <description></description>
     </item>
     <item>
       <title>Scenario</title>
-      <link>https://ahmadrafly2023.github.io/tags/scenario/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/scenario/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/scenario/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/scenario/</guid>
       <description></description>
     </item>
     <item>
       <title>Soapui</title>
-      <link>https://ahmadrafly2023.github.io/tags/soapui/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/soapui/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/soapui/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/soapui/</guid>
       <description></description>
     </item>
     <item>
       <title>Test Case</title>
-      <link>https://ahmadrafly2023.github.io/tags/test-case/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/test-case/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/test-case/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/test-case/</guid>
       <description></description>
     </item>
     <item>
       <title>Testing</title>
-      <link>https://ahmadrafly2023.github.io/tags/testing/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/testing/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/testing/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Unit Testing</title>
-      <link>https://ahmadrafly2023.github.io/tags/unit-testing/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/unit-testing/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/unit-testing/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/unit-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Accessibility</title>
-      <link>https://ahmadrafly2023.github.io/tags/accessibility/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/accessibility/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/accessibility/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/accessibility/</guid>
       <description></description>
     </item>
     <item>
       <title>Planning</title>
-      <link>https://ahmadrafly2023.github.io/tags/planning/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/planning/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/planning/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/planning/</guid>
       <description></description>
     </item>
     <item>
       <title>UI</title>
-      <link>https://ahmadrafly2023.github.io/tags/ui/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/ui/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/ui/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/ui/</guid>
       <description></description>
     </item>
     <item>
       <title>Usability</title>
-      <link>https://ahmadrafly2023.github.io/tags/usability/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/usability/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/usability/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/usability/</guid>
       <description></description>
     </item>
     <item>
       <title>UX</title>
-      <link>https://ahmadrafly2023.github.io/tags/ux/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/ux/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/ux/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/ux/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>https://ahmadrafly2023.github.io/tags/software/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/software/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/software/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Strategi</title>
-      <link>https://ahmadrafly2023.github.io/tags/strategi/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/strategi/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/strategi/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/strategi/</guid>
       <description></description>
     </item>
     <item>
       <title>Automation</title>
-      <link>https://ahmadrafly2023.github.io/tags/automation/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/automation/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/automation/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Cypress</title>
-      <link>https://ahmadrafly2023.github.io/tags/cypress/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/cypress/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/cypress/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/cypress/</guid>
       <description></description>
     </item>
     <item>
       <title>End-to-End Testing</title>
-      <link>https://ahmadrafly2023.github.io/tags/end-to-end-testing/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/end-to-end-testing/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/end-to-end-testing/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/end-to-end-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>https://ahmadrafly2023.github.io/tags/javascript/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/javascript/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/javascript/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Android</title>
-      <link>https://ahmadrafly2023.github.io/tags/android/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/android/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/android/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/android/</guid>
       <description></description>
     </item>
     <item>
       <title>Figma</title>
-      <link>https://ahmadrafly2023.github.io/tags/figma/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/figma/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/figma/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/figma/</guid>
       <description></description>
     </item>
     <item>
       <title>Flutter</title>
-      <link>https://ahmadrafly2023.github.io/tags/flutter/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/flutter/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/flutter/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/flutter/</guid>
       <description></description>
     </item>
     <item>
       <title>Information System</title>
-      <link>https://ahmadrafly2023.github.io/tags/information-system/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/information-system/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/information-system/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/information-system/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>https://ahmadrafly2023.github.io/tags/java/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/java/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/java/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Laravel</title>
-      <link>https://ahmadrafly2023.github.io/tags/laravel/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/laravel/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/laravel/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/laravel/</guid>
       <description></description>
     </item>
     <item>
       <title>Mobile</title>
-      <link>https://ahmadrafly2023.github.io/tags/mobile/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/mobile/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/mobile/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/mobile/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
-      <link>https://ahmadrafly2023.github.io/tags/web/</link>
+      <link>http://localhost:1313/portofolio-raflly/tags/web/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/tags/web/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/tags/web/</guid>
       <description></description>
     </item>
   </channel>

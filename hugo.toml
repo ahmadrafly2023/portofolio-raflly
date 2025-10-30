@@ -1,4 +1,8 @@
-baseURL = "https://ahmadrafly2023.github.io/" # alamat GitHub Pages kamu
+baseURL = "https://ahmadrafly2023.github.io/portofolio-raflly/"
+publishDir = "docs"
+canonifyURLs = true
+relativeURLs = true
+
 languageCode = "en-us"
 title = "Ahmad Rafly Putra H"
 theme = "github.com/adityatelange/hugo-PaperMod"

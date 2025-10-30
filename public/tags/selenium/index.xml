@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Selenium on Ahmad Rafly Putra H</title>
-    <link>https://ahmadrafly2023.github.io/tags/selenium/</link>
+    <link>http://localhost:1313/portofolio-raflly/tags/selenium/</link>
     <description>Recent content in Selenium on Ahmad Rafly Putra H</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ahmadrafly2023.github.io/tags/selenium/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/portofolio-raflly/tags/selenium/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Selenium WebDriver</title>
-      <link>https://ahmadrafly2023.github.io/posts/selenium/</link>
+      <link>http://localhost:1313/portofolio-raflly/posts/selenium/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://ahmadrafly2023.github.io/posts/selenium/</guid>
+      <guid>http://localhost:1313/portofolio-raflly/posts/selenium/</guid>
       <description>Rangkuman mendalam tentang konsep, fungsi, cara kerja, instalasi, dan penerapan Selenium WebDriver untuk otomatisasi pengujian aplikasi web.</description>
     </item>
   </channel>
